@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.h-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.h-menu {
+    flex-grow: 3;
+}
+
+.item {
+    list-style: none ;
+}
+
+.mlink {
+    font-size: 28px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.prewie-product {
+    background: url(images/preview.jpg);
+    width: 100%;
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.prewie-title {
+    font-size: 35px;
+}
+
+.pr {
+    font-size: 25px;
+}
+
+.prewie-container {
+    text-align: center;
+    color: white;
+}
+
+.product-container {
+    padding: 20px;
+}
+
+.product-title {
+    text-align: center;
+}
+
+.product-title > p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.product-title > h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.products {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.product {
+    padding: 20px 50px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.product-body {
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.product-body > h3, p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.product-body > h3 {
+    font-weight: 600;
+}
+
+.product-body > p {
+    margin-bottom: 15px;
+}
+
+.product-body > a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px 25px;;
+}
+
+.footer {
+    background: url(images/footer.png);
+    padding: 80px 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.messages > a {
+    margin: 0 15px;
+}
+
+.f-text {
+    margin-top: 35px;
+    color: white;
+}
